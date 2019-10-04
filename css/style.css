@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("../Images/Moutains.jpg");
+    background-position: center;
+    height: 200px;
+    background-size: cover;
+}
+.wrapper {
+    background-color: #b4ccd6;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    flex-basis: auto;
+    display: flex;
+}
+.nav-menu {
+    margin: 0 auto;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.menu-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.menu-item a:hover {
+    color: #1a45f0;
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+}
+
+.menu-item:hover {
+    background-color: white;
+}
+
+section {
+    background-color: dimgray;
+    min-height: 500px;
+}
+
+.movePic {
+    
+    margin: 25px 50px;
+     
+}
+
+.movePic img{ 
+    border: 5px solid black;
+}
+
+.seniorPic img {
+    width: 300px;
+    border: 5px solid black;
+    margin: 2px 45px;
+}
+
+h1{
+text-align: center;
+font-family: 'Pacifico', cursive;
+font-weight: 200;
+letter-spacing: 2px;
+margin-top: 10px;
+}
+
+h2{
+text-align: center;
+font-family: 'Pacifico', cursive;
+font-weight: 200;
+letter-spacing: 2px;
+margin-top: 10px;
+}
+
+h3{
+text-align: center;
+font-family: 'Pacifico', cursive;
+font-weight: 200;
+letter-spacing: 2px;
+margin-top: 10px;
+font-size: 25px;
+}
+
+h4{
+text-align: center;
+font-family: 'Pacifico', cursive;
+font-weight: 100;
+letter-spacing: 2px;
+margin-top: 10px;
+font-size: 25px;
+}
+
+.index-text {
+    font-family: "Raleway", sans-serif;
+    margin: 25px 50px;
+}
+
+.aboutme-text {
+    font-family: "Raleway", sans-serif;
+    margin: 25px 50px;
+}
+
+.projects-text {
+    font-family: "Raleway", sans-serif;
+    margin: 25px 50px;
+}
+
+.deepthoughts-text {
+    font-family: "Raleway", sans-serif;
+    margin: 25px 50px;
+}
+
+.box {
+    position: relative;
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #b4ccd6;
+    border-style: solid;
+    background-color: #5c5b57;
+}
