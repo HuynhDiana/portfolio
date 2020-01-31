@@ -1,15 +1,20 @@
 SnowFlake[]mySnow=new SnowFlake[100];
 Image image;
 Tree tree;
+Snowman snowman;
+House house;
 
 void setup() {
-    size(800,800);
+   size(1000,900);
+   
    for(int i=0; i<mySnow.length; i++){
     mySnow[i]=new SnowFlake();
   }
   
   image = new Image();
   tree = new Tree();
+  snowman = new Snowman();
+  house = new House();
 }
 
 void draw() {
@@ -18,6 +23,8 @@ void draw() {
    image.move();
    
    tree.show();
+   snowman.show();
+   house.show();
    
    for(int i=0; i<mySnow.length; i++){
       mySnow[i].move();

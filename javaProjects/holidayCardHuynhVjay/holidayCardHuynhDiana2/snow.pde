@@ -19,6 +19,6 @@ class SnowFlake implements snow {
    public void show() {
     fill(#FFFFFF);
     ellipse(x, y, r, r);
-    rect(0, 750, 1950, 70);
+    rect(0, 850, 1950, 70);
   }
  }
